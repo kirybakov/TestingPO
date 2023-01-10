@@ -1,5 +1,5 @@
 import unittest
-from main import Roots
+from RootsMain import Roots
 
 
 class TestRoots(unittest.TestCase):
