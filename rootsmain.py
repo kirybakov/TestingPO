@@ -14,7 +14,7 @@
         root2 = (-b - Disc ** 0.5) / (2 * a)
         return sorted([root1, root2]) """
 
-    class Klass:
+class Klass:
 
     def discriminant(self, a, b, c):
         D = b**2 - 4 * a * c
