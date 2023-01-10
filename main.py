@@ -15,6 +15,6 @@ class Roots:
         return root1
 
     def Tworoots(self, a, b, D):
-        root1 = (-b + math.sqrt(D, 0.5) / (2 * a)
-        root2 = (-b - math.sqrt(D, 0.5) / (2 * a)
+        root1 = (-b + math.sqrt(D) / (2 * a)
+        root2 = (-b - math.sqrt(D) / (2 * a)
         return sorted([root1, root2])
