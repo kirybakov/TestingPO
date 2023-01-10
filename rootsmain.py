@@ -1,4 +1,3 @@
-
 class Roots:
 
     def Discriminant(self, a, b, c):
