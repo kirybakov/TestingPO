@@ -13,4 +13,3 @@ class Roots:
         root2 = (-b - Disc ** 0.5) / (2 * a)
         return sorted([root1, root2]) 
     
-    
