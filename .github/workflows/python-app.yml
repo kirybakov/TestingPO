@@ -36,7 +36,7 @@ jobs:
         pip install coverage-lcov
     - name: Test with unittest
       run: |
-        coverage run -m unittest test_unit.py
+        coverage run -m unittest test.py
         mkdir coverage
         coverage-lcov --output_file_path coverage/lcov.info
     - name: Coveralls
